@@ -3,7 +3,7 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace AutomationExercise
+namespace AutomationExercise.SignupTests
 {
           public class SignupWithInvalidEmailFormats_ShouldStayOnSignupLoginPage
           {

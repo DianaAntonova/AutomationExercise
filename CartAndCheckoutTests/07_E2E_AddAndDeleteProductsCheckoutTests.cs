@@ -4,7 +4,7 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace AutomationExercise
+namespace AutomationExercise.CartAndCheckoutTests
 {
           public class E2EMultiCategoryCheckoutTests
           {

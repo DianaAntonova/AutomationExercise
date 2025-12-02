@@ -3,7 +3,7 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace AutomationExercise
+namespace AutomationExercise.CartAndCheckoutTests
 {
           public class E2EAddTwoProductsDeleteFirstAndCompleteOrderTests
           {
@@ -115,7 +115,7 @@ namespace AutomationExercise
                               deleteFirstProduct.Click();
 
                               // OPTIONAL small wait to allow cart refresh
-                              System.Threading.Thread.Sleep(500);
+                              Thread.Sleep(500);
 
                               // Verify first product is removed
                               Assert.That(driver.FindElements(By.Id("product-1")).Count == 0,
