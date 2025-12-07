@@ -29,9 +29,4 @@
     <Using Include="NUnit.Framework" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="NewsletterAndContactTests\" />
-    <Folder Include="ProductAndSearchTests\" />
-  </ItemGroup>
-
 </Project>
