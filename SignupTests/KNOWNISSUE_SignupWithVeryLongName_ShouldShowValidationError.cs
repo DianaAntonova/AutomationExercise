@@ -7,7 +7,7 @@ namespace AutomationExercise.SignupValidationTests
 {
           [Category("Signup")]
           [Category("KnownIssue")]
-          public class KNOWNISSUE_SignupWithVeryLongName_ShouldShowValidationError
+          public class KNOWNISSUESignupWithVeryLongName_ShouldShowValidationError
           {
                     private IWebDriver driver;
 
@@ -38,7 +38,7 @@ namespace AutomationExercise.SignupValidationTests
                     }
 
                     [Test]
-                    public void SignupWithVeryLongName_ShouldShowValidationError()
+                    public void KNOWNISSUE_SignupWithVeryLongName_ShouldShowValidationError()
                     {
                               // Generate long invalid username (50 characters)
                               string longName = new string('A', 50);

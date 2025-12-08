@@ -50,21 +50,26 @@ namespace AutomationExercise.SignupValidationTests
                     }
 
                     [Test]
-                    public void KNOWNISSUE_SignupWithEmailContainingOpeningParenthesis_ShouldNotAllowAccountCreation()
+                    public void SignupWithEmailContainingOpeningParenthesis_ShouldNotAllowAccountCreation()
                     {
                               RunForbiddenSymbolEmailTest('(');
+                              //system prevents using this symbol
                     }
 
                     [Test]
-                    public void KNOWNISSUE_SignupWithEmailContainingComma_ShouldNotAllowAccountCreation()
+                    public void SignupWithEmailContainingComma_ShouldNotAllowAccountCreation()
                     {
                               RunForbiddenSymbolEmailTest(',');
+                              //system prevents using this symbol
+
                     }
 
                     [Test]
-                    public void KNOWNISSUE_SignupWithEmailContainingColon_ShouldNotAllowAccountCreation()
+                    public void SignupWithEmailContainingColon_ShouldNotAllowAccountCreation()
                     {
                               RunForbiddenSymbolEmailTest(':');
+                              //system prevents using this symbol
+
                     }
 
                     /// <summary>

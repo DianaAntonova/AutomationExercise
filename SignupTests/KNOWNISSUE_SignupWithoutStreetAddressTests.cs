@@ -38,7 +38,7 @@ namespace AutomationExercise.SignupValidationTests
                     }
 
                     [Test]
-                    public void KNOWNISSUE_SignupWithoutStreetAddress_ShouldShowRequiredFieldError()
+                    public void SignupWithoutStreetAddress_ShouldShowRequiredFieldError()
                     {
                               // Arrange: generate random user name and email
                               string randomPart = Guid.NewGuid().ToString("N").Substring(0, 6);

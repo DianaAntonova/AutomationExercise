@@ -36,7 +36,7 @@ namespace AutomationExercise.LoginAndSecurityTests
                     }
 
                     [Test]
-                    public void LoginWithMultipleWrongAttempts_ShouldShowLockoutOrWarning()
+                    public void KNOWNISSUE_LoginWithMultipleWrongAttempts_ShouldShowLockoutOrWarning()
                     {
                               const int maxAttempts = 5;
                               bool isLockedOrWarningShown = false;
